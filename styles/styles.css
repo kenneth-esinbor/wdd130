@@ -2,6 +2,21 @@ main {
     max-width: 840px;
 }
 
+h1 {
+    color: steelblue;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 1rem;
+}
+
+nav a {
+    color: #fff;
+    display: block;
+    padding: 0;
+}
+
 aside {
     max-width: 20rem;
     margin: 1rem;
@@ -16,6 +31,8 @@ aside {
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid steelblue;
+    box-shadow: 0 0 30px gray;
 }
 
 aside img {
