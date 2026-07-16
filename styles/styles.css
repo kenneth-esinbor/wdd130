@@ -33,6 +33,7 @@ main img {
     height: auto;
     border: 1px solid steelblue;
     box-shadow: 0 0 30px gray;
+    padding: 2px;
 }
 
 aside img {
