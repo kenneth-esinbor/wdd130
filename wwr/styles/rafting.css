@@ -7,6 +7,38 @@
     --body-font: Arial, Helvetica, sans-serif;
 }
 
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 180px 1fr 1fr;
+    align-items: center;
+    max-width: 1000px;
+}
+
+header img {
+    margin: 0 0.25rem 0 1rem;
+    width: 180px;
+    height: auto;
+}
+
+.connect {
+    display: flex;
+    list-style: none;
+}
+
+.connect li {
+    flex: 1 1 auto;
+}
+
+.connect a {
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +50,6 @@ body {
     color: var(--accent1-color);
 }
 
-header,
 main,
 footer {
     width: 840px;
@@ -29,11 +60,6 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-}
-
-nav a {
-    color: var(--secondary-color);
-    text-decoration: none;
 }
 
 nav,
@@ -80,4 +106,19 @@ article {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+section {
+    display: flex;
+}
+
+figure {
+    display: block;
+    max-width: 300px;
+    align-items: center;
+}
+
+figure img {
+    width: 250px;
+    hight: auto;
 }
