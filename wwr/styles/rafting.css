@@ -49,6 +49,7 @@ header img {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-weight: 500;
+    color: var(--secondary-color);
 }
 
 main {
@@ -62,6 +63,7 @@ h2 {
     color: var(--accent1-color);
     text-align: center;
     margin-bottom: 1rem;
+    color: var(--primary-color);
 }
 
 .hero {
@@ -165,6 +167,7 @@ footer {
 .socialmedia {
     display: flex;
     gap: 10px;
+    border: 1px solid var(--accent2-color);
 }
 
 .socialmedia a img {
