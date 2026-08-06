@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | WhiteWater Rafters</title>
+    <meta name="description"
+      content="Get in touch with WhiteWater Rafters. Reach out to us for general inquiries, reservation questions, or website suggestions.">
+    <meta name="author" content="Kenneth Esinbor">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/z-wwr-blue.jpg" alt="wwr logo" width="200">
+        <nav>
+            <ul class="connect">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Company Info Header Section -->
+        <div class="company-info">
+            <h1>White Water Rafters Company</h1>
+            <p>23 Abakilki Street, Mile 1 Diobu<br>
+                Port Harcourt, Nigeria<br>
+                +234 9076851268<br>
+                info@whitewaterrafters.com</p>
+        </div>
+
+        <!-- Main Content Grid: Map and Form Side-by-Side -->
+        <div class="contact-grid">
+            <div class="map-container">
+                <!-- Small Embedded Google Map (inline border:0 removed as requested) -->
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537353153169!3d-37.81720974202144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d6at5d2!2sMain%20St%2C%20Melbourne%20VIC%203000%2C%20Australia!5e0!3m2!1sen!2sus!4v1628000000000!5m2!1sen!2sus"
+                  width="100%" height="400" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <div class="form-container">
+                <h2>Send Us a Message</h2>
+                <form action="#" method="post">
+                    <div class="form-item">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Placeholder" required>
+                    </div>
+
+                    <div class="form-item">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Placeholder"
+                          required>
+                    </div>
+
+                    <fieldset class="form-item">
+                        <legend>Message Purpose</legend>
+                        <div>
+                            <input type="radio" id="general" name="purpose" value="General Inquiry"
+                              checked>
+                            <label for="general">General Inquiry</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="reservation" name="purpose"
+                              value="Reservation Question">
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="suggestion" name="purpose"
+                              value="Website Suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </fieldset>
+
+                    <div class="form-item">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4"
+                          placeholder="Type here"></textarea>
+                    </div>
+
+                    <div class="form-item checkbox-container">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Please Subscribe me to the monthly
+                            newsletter</label>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Get in Touch!</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Employee Profiles Section -->
+        <section class="employees-section">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-grid">
+                <figure>
+                    <img src="images/happy-client.jpg" alt="Employee Profile 1" width="150">
+                    <figcaption>John Doe - Lead Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/happy-client.jpg" alt="Employee Profile 2" width="150">
+                    <figcaption>Jane Smith - Safety Coordinator</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/happy-client.jpg" alt="Employee Profile 3" width="150">
+                    <figcaption>Mark Johnson - Customer Relations</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 WHITEWATER RAFTERS Kenneth Esinbor</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"
+                  width="30"></a>
+            <a href="https://linkedin.com"><img src="images/linkedin.png" alt="LinkedIn"
+                  width="30"></a>
+            <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"
+                  width="30"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
